@@ -1,0 +1,38 @@
+Story:
+You are a dachshund who just graduated from college and ready for his first adventure. First thing you need to do is head to the adventurers job fair.
+This will likely include a tutorial session on how to travel. Let's say the doors to the fair are closed and your arms are too short to reach the handle
+then you can sniff around until you find a grapple to extend your reach (how convinient!). Once inside, there will be several companies that will 
+be described and how it can affect your future (class choice). Unfortunately, all of the nonnadventurous jobs are not accepting dachshunds, sad! 
+Speak to the adventure recruiters and they will interview you and may include other stat choises, players will bark or growl at these choises. Once the
+interview is done, you will be accepted to the job and given a location to go to. This is also where the player will be given the options to go home.
+I don't know if I want a home for the player and what the function would be... When they elect to go to the new location they can enter and be told to 
+get a lay of the land, as well as a description of places within the location.
+
+Commands:
+Travel - As you explore the story, you will discover new locations, you can then use the travel command to pick up and leave to those locations.
+Lick - Pick an object, lick it. (describe)
+Sniff - try to find a trail that can lead to new knowlege
+Get - get an object and put it in your backpack (just make sure it's close enough for your little arms to reach)
+Journal - helps keep a record of past events, as well as known locations
+Backpack - view whats in your backpack/equip items in your backpack.
+Speak - bark at something, enter interaction
+Bark - if in interaction, will be a positive response.
+Growl - if in interaction, will be a negative response. Outside, may offset or intimidate NPCs
+Combine - mix items together, he can, he's a smart boy.
+Grapple - get things that may be out of reach. It will be upgraded with different lengths to reach further items. Base grapple will be able to open doors.
+Help - lists available commands. (may or may not include available methods)
+
+Combat:
+Pounce: basic attack, may be modified with equipped items
+Bite: stronger attack. Not as effective if enemy doesn't taste good.
+Zoomies: will make enemy dizzy 
+Lick: can offput enemy.
+
+Interaction with the Rest system:
+- Try to make all 400 methods descriptive, say if someone is looking in their backpack, but a specific item isn't found,
+  make the error message backpack specific.
+- Please make it comedic
+- The idea is that the whole world is open the entire game, it is up to the player to discover them though. Similar to "Her story"
+- Players first call new game, they will then need to make a post call to setup their account. The return will be a token that will
+  be expected in their header. This token will track their progress. A user/password can be setup to generate a new token.
+- Siginifant events will be automatically entered into the journal, but users will be able to make their own notes.
